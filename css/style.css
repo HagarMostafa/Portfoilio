@@ -22,6 +22,7 @@
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
     
+    --br: 0.5rem;
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
@@ -82,6 +83,7 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border-radius: var(--br);
 }
 
 .btn:hover {
@@ -125,6 +127,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    border-radius: var(--br);
 }
 
 .section__subtitle--work {
@@ -253,6 +256,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius:var(--br);
 }
 
 .section__subtitle--intro {
@@ -286,6 +290,7 @@ header {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+        border-radius: var(--br);
     }
 }
 
@@ -347,6 +352,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    border-radius: var(--br);
 }
 
 @media (min-width: 600px) {
@@ -372,6 +378,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        border-radius: 5px;
     }
     
     .about-me__img {
@@ -397,6 +404,8 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    border-radius: var(--br);
+    margin: 1em;
 }
 
 .portfolio__img {
@@ -431,6 +440,7 @@ header {
 .footer a { 
     color: inherit;
     text-decoration: none;
+    border-radius: var(--br);
 }
 
 .footer__link {
@@ -476,3 +486,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.portfolio-item-individual img {
+    border-radius: var(--br);
+ }
