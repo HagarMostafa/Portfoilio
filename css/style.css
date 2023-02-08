@@ -59,6 +59,7 @@ section {
 
 img {
     display: block;
+    /* margin: auto; */
     max-width: 100%;
 }
 
@@ -403,6 +404,7 @@ header {
 }
 
 .portfolio__item {
+    height: 300px;
     background: var(--clr-accent);
     overflow: hidden;
     border-radius: var(--br);
@@ -490,4 +492,6 @@ header {
 
 .portfolio-item-individual img {
     border-radius: var(--br);
+    width: 500px;
+    margin: auto;
  }
