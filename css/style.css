@@ -258,7 +258,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    border-radius:var(--br);
+    border-radius: var(--br);
+    height: 170px;
 }
 
 .section__subtitle--intro {
@@ -485,13 +486,25 @@ header {
 }
 
 .portfolio-item-individual p {
-    max-width: 600px;
+    /* max-width: 600px; */
     margin-left: auto;
     margin-right: auto;
 }
 
 .portfolio-item-individual img {
     border-radius: var(--br);
-    width: 500px;
+    width: 400px;
+    height: 200px;
     margin: auto;
  }
+
+figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
