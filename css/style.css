@@ -405,6 +405,8 @@ header {
 
 .portfolio__item {
     height: 300px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
     background: var(--clr-accent);
     overflow: hidden;
     border-radius: var(--br);
@@ -495,7 +497,7 @@ header {
     width: 500px;
     height: 300px;
     margin: auto;
- }
+}
 
 figure {
     text-align: center;
@@ -504,4 +506,8 @@ figure {
     text-indent: 0;
     margin: 0.5em;
     padding: 0.5em;
-  }
+}
+
+a:link {
+    text-decoration: none;
+}
